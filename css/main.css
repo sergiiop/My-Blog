@@ -40,5 +40,6 @@ header .header-icons-container .icons {
 }
 
 header .icons span::before {
+  color: white;
   font-size: 40px;
 }
