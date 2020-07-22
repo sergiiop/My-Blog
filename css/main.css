@@ -141,7 +141,8 @@ nav .profile-link a {
   grid-template: 2fr / 2fr 1fr;
 }
 
-.blogs-news-img-container {
+.blogs-news-img-container,
+.perfil-hero-img-container {
   grid-column: 1;
 }
 
@@ -157,11 +158,13 @@ nav .profile-link a {
   margin-bottom: 35px;
 }
 
-.blogs-posts-container {
+.blogs-posts-container,
+.perfil-projects-container {
   padding: 0 50px 40px;
 }
 
-.blogs-posts-container h3 {
+.blogs-posts-container h3,
+.perfil-projects-container h2 {
   border-bottom: 1px solid #bbe1fa;
   padding-bottom: 20px;
   text-align: center;
@@ -196,7 +199,8 @@ nav .profile-link a {
   margin-bottom: 35px;
 }
 
-.blogs-posts-container .post-container img {
+.blogs-posts-container .post-container img,
+.perfil-projects-container .projects-container img {
   width: 100%;
   object-fit: cover;
 }
@@ -267,4 +271,31 @@ footer p {
   text-align: initial;
   margin-top: 85px;
   margin-left: 5px;
+}
+
+.perfil-hero-img-container img {
+  width: 85%;
+  border-radius: 50%;
+}
+
+.perfil-main-hero {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+}
+
+.perfil-hero-container {
+  background-color: #e6e9ed;
+  padding: 40px 50px 50px;
+}
+
+.perfil-projects-container .projects-container {
+  display: inline-block;
+  max-width: 30%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  overflow: hidden;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
 }
